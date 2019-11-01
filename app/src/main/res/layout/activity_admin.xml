@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/admin_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:padding="25dp">
+
+<!--    <TextView-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:padding="30sp"-->
+<!--        android:text="@string/student"-->
+<!--        android:textColor="#6dffbf"-->
+<!--        android:textSize="25sp" />-->
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add Member" />
+
+<!--    <View-->
+<!--        android:layout_width="1dp"-->
+<!--        android:layout_height="0.1dp"-->
+<!--        android:layout_weight="0.01" />-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="View Student"
+        android:id="@+id/viewstudent"
+        />
+
+<!--    <View-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_weight="0.01" />-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Attendance Per Student"
+        android:id="@+id/attendancestudent"
+        />
+
+    <!--    <TextView-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:padding="30sp"-->
+<!--        android:text="@string/faculty"-->
+<!--        android:textColor="#6dffbf"-->
+<!--        android:textSize="25sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addfaculty"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Add Student" />-->
+
+<!--    <View-->
+<!--        android:layout_width="1dp"-->
+<!--        android:layout_height="0.1dp"-->
+<!--        android:layout_weight="0.01" />-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="View Faculty"
+        android:id="@+id/viewfaculty"
+        />
+
+<!--    <View-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_weight="0.01" />-->
+
+
+</LinearLayout>

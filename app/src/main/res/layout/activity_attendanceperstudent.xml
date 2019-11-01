@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:id="@+id/dept">
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date(yyyy-mm-dd)"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#52afaa" />
+            <EditText
+                android:id="@+id/roll_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Roll Number"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#52afaa" />
+            <EditText
+                android:id="@+id/class_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Class"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#52afaa" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="0sp"
+                android:text="Department"
+                android:textColor="#6dffbf"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_dept1"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="0sp"
+                android:text="Subject"
+                android:textColor="#6dffbf"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_subject1"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:id="@+id/year">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="0sp"
+                android:text="Year"
+                android:textColor="#6dffbf"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_year1"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:id="@+id/atte">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="0sp"
+                android:text="Status"
+                android:textColor="#6dffbf"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_attendance"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/fdgi">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/attendance1"
+                android:layout_width="144dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
